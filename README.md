@@ -16,7 +16,7 @@ claude mcp add jdocmunch -- npx jdocmunch-mcp
 ## Installation
 
 ```bash
-claude plugin add /path/to/jmunch-toolkit
+claude plugin add https://github.com/shacharbard/jmunch-toolkit
 ```
 
 ## Available Commands
