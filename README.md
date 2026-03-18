@@ -17,7 +17,7 @@ claude mcp add jdocmunch -- npx jdocmunch-mcp
 
 ### From the marketplace (recommended)
 
-First, add the marketplace:
+First, add the [jmunch-marketplace](https://github.com/shacharbard/jmunch-marketplace):
 
 ```
 /plugin marketplace add shacharbard/jmunch-marketplace
@@ -32,7 +32,8 @@ Then install the plugin:
 ### From a local clone
 
 ```bash
-claude plugin add ~/Development/AI/jmunch-toolkit
+git clone https://github.com/shacharbard/jmunch-toolkit.git
+claude plugin add ./jmunch-toolkit
 ```
 
 ## Available Commands
