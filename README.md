@@ -77,4 +77,4 @@ Built on [jCodeMunch](https://github.com/jgravelle/jcodemunch-mcp) and [jDocMunc
 
 ## License
 
-MIT (this plugin only)
+MIT (this plugin only). [jCodeMunch](https://github.com/jgravelle/jcodemunch-mcp) and [jDocMunch](https://github.com/jgravelle/jdocmunch-mcp) MCP servers are licensed under their creator's terms — see their repos for details.
