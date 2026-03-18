@@ -71,6 +71,10 @@ jmunch-toolkit/
 └── README.md
 ```
 
+## Credits
+
+This plugin is built on top of [jCodeMunch](https://github.com/jgravelle/jcodemunch-mcp) and [jDocMunch](https://github.com/jgravelle/jdocmunch-mcp), created by [J. Gravelle](https://github.com/jgravelle). These MCP servers are separate projects with their own licensing terms — refer to their respective repositories for details.
+
 ## License
 
-MIT
+This plugin (jmunch-toolkit) is licensed under MIT. The underlying jCodeMunch and jDocMunch MCP servers are subject to their own licenses as defined by their creator.
