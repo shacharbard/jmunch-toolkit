@@ -6,7 +6,7 @@ Provides reusable Claude Code commands for codebase analysis — dead code detec
 
 ## Prerequisites
 
-This plugin requires jCodeMunch and jDocMunch MCP servers to be installed and configured. Install them via [jmunch-claude-code-setup](https://github.com/shaharbard/jmunch-claude-code-setup) or manually:
+This plugin requires jCodeMunch and jDocMunch MCP servers to be installed and configured. Install them via [jmunch-claude-code-setup](https://github.com/shacharbard/jmunch-claude-code-setup) or manually:
 
 ```bash
 claude mcp add jcodemunch -- npx jcodemunch-mcp
@@ -15,8 +15,24 @@ claude mcp add jdocmunch -- npx jdocmunch-mcp
 
 ## Installation
 
+### From the marketplace (recommended)
+
+First, add the marketplace:
+
+```
+/plugin marketplace add shacharbard/jmunch-marketplace
+```
+
+Then install the plugin:
+
+```
+/plugin install jmunch-toolkit@jmunch-marketplace
+```
+
+### From a local clone
+
 ```bash
-claude plugin add https://github.com/shacharbard/jmunch-toolkit
+claude plugin add ~/Development/AI/jmunch-toolkit
 ```
 
 ## Available Commands
@@ -45,7 +61,8 @@ Create a new `.md` file in the `commands/` directory. The filename becomes the s
 
 ```
 jmunch-toolkit/
-├── plugin.json       # Plugin manifest
+├── .claude-plugin/
+│   └── plugin.json   # Plugin manifest
 ├── commands/         # Slash commands (user-invocable)
 │   └── dead-code.md  # /dead-code
 ├── skills/           # Skills (auto-triggered by context)
