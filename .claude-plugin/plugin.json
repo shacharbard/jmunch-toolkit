@@ -2,7 +2,11 @@
   "name": "jmunch-toolkit",
   "version": "1.0.0",
   "description": "Command toolkit powered by jCodeMunch + jDocMunch. Provides reusable commands for codebase analysis, dead code detection, and more. Requires jCodeMunch and jDocMunch MCP servers to be installed separately.",
-  "commands": "commands",
-  "skills": "skills",
-  "agents": "agents"
+  "author": {
+    "name": "Shahar Bard",
+    "email": "shachar.bard@gmail.com"
+  },
+  "repository": "https://github.com/shacharbard/jmunch-toolkit",
+  "license": "MIT",
+  "keywords": ["jcodemunch", "jdocmunch", "dead-code", "codebase-analysis"]
 }
